@@ -42,6 +42,7 @@ The dashboard highlights sales trends over time, regional performance, and top-p
 
 - Total Sales = SUM(Orders[Sales])
 - Total Profit = SUM(Orders[Profit])
+- 
 -Sales by Year = CALCULATE(SUM(Orders[Sales]),YEAR(Orders[Order Date]))
 
 ### 🧩 Category Filter
